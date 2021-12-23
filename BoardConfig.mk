@@ -21,6 +21,9 @@ DEVICE_PATH := device/polaroid/PSPCK21NA
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
